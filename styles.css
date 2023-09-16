@@ -1,7 +1,7 @@
 body{
     height: 100vh;
     margin: 0;
-    overflow: hidden;
+    overflow: auto;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
@@ -13,6 +13,7 @@ body{
     flex-grow: 1;
     flex-direction: column;
     gap: 48px;
+    padding-bottom: 16px;
 }
 .logoheader{
     background-color: #283241;
@@ -20,7 +21,7 @@ body{
     margin: 0px;
     padding-top: 16px;
     padding-bottom: 16px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: ;
 }
 .logo{
@@ -36,30 +37,27 @@ a{
 }
 .hcontainer{
     display: flex;
-    justify-content: space-around;
-    flex-shrink: 1;
-    min-width: 0px;
+    justify-content: space-evenly;
 }
 .infoheader{
     color: #F9FAF8;
     font-weight: 750;
     flex-wrap: wrap;
-    font-size: 48px;
-    width: 400px;
-    min-width: 0px;
+    font-size: 32px;
+    width: 300px;
 }
 .lorem{
     color: #e5e7eb9d;
     font-size: 18px;
-    flex-basis: 400px;
+    width: 300px;
     display: flex;
     flex-wrap: wrap;
-    min-width: 0px;
-    overflow: hidden;
+    flex: 1;
+    margin-bottom: 8px;
 }
 .signupb{
     color: #F9FAF8;
-    background-color: rgb(66, 66, 209);
+    background-color: rgb(79, 79, 214);
     padding: 4px 32px 4px 32px;
     border: none;
     border-radius: 8px;
@@ -74,13 +72,100 @@ a{
     display: flex;
     flex-grow: 2;
 }
+.imagesinfo{
+    color: #1F2937;
+    font-weight: 700;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+.container{
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 64px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.border{
+    width: 100px;
+    height: 100px;
+    border-style: groove;
+    border-radius: 8px;
+    border-color: blue;
+    margin-bottom: 8px;
+}
 .quote{
     display: flex;
     background-color: #E5E7EB;
     align-items: end;
     flex-grow: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+.aquote{
+    color: #3a4657;
+    font-size: 32px;
+    font-style: italic;
+    display: flex;
+    width: 700px;
+    flex-wrap: wrap;
+}
+.author{
+    color: #1F2937;
+    font-weight: 700;
+    width: 700px;
+    font-size: 36px;
+    display: flex;
+    justify-content: end;
+}
+.scontainer{
+    display: flex;
+    flex-grow: 2;
+    padding: 32px;
+    justify-content: center;
 }
 .signup{
     display: flex;
-    flex-grow: 2;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 16px 64px 16px 64px;
+    gap: 64px;
+}
+.htext{
+    color: #F9FAF8;
+    font-weight: 700;
+    font-size: 24px;
+}
+.itext{
+    color:#e5e7eb9d;
+    font-size: 18px;
+}
+.sbutton{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: 1px;
+    padding: 4px 16px 4px 16px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: white;
+}
+.copyright{
+    padding: 16px;
+    color: #e5e7eb9d;
+    background-color: #283241;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
