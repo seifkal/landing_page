@@ -1,0 +1,86 @@
+body{
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-grow:;
+}
+.header{
+    background-color: #1F2937;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    gap: 48px;
+}
+.logoheader{
+    background-color: #283241;
+    display: flex;
+    margin: 0px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    justify-content: space-around;
+    background-color: ;
+}
+.logo{
+    color: #F9FAF8;
+    font-weight: 700;
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    color: #e5e7eb9d;
+    padding: 0px 8px;
+    margin: 0px;
+}
+.hcontainer{
+    display: flex;
+    justify-content: space-around;
+    flex-shrink: 1;
+    min-width: 0px;
+}
+.infoheader{
+    color: #F9FAF8;
+    font-weight: 750;
+    flex-wrap: wrap;
+    font-size: 48px;
+    width: 400px;
+    min-width: 0px;
+}
+.lorem{
+    color: #e5e7eb9d;
+    font-size: 18px;
+    flex-basis: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 0px;
+    overflow: hidden;
+}
+.signupb{
+    color: #F9FAF8;
+    background-color: rgb(66, 66, 209);
+    padding: 4px 32px 4px 32px;
+    border: none;
+    border-radius: 8px;
+}
+.image{
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 64px 128px 64px 128px;
+}
+.images{
+    display: flex;
+    flex-grow: 2;
+}
+.quote{
+    display: flex;
+    background-color: #E5E7EB;
+    align-items: end;
+    flex-grow: 2;
+}
+.signup{
+    display: flex;
+    flex-grow: 2;
+}
